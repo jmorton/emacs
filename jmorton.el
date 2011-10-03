@@ -6,3 +6,6 @@
 (load "jmorton/defuns")
 (load "jmorton/theme")
 (load "jmorton/ruby")
+(load "jmorton/yaml")
+(load "jmorton/school")
+(load "jmorton/c")
