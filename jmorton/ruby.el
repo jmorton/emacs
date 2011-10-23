@@ -1,3 +1,6 @@
+(vendor 'ruby-test)
+(vendor 'ruby-electric)
+
 ; rinari
 ;; (vendor 'rinari)
 ;; (setq rinari-tags-file-name "TAGS")
@@ -69,3 +72,4 @@
 
 ; treetop
 (vendor 'treetop)
+
