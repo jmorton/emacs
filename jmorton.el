@@ -12,7 +12,7 @@
 (load "jmorton/ruby")
 (load "jmorton/yaml")
 (load "jmorton/js")
-
+(load "jmorton/clojure")
 
 (load "jmorton/c")
 (load "jmorton/school")
