@@ -1,5 +1,5 @@
 (vendor 'ruby-test)
-(vendor 'ruby-electric)
+;; (vendor 'ruby-electric)
 
 ; rinari
 ;; (vendor 'rinari)
@@ -26,18 +26,6 @@
 
 ;; no warnings when compiling
 (setq ruby-dbg-flags "")
-
-(add-hook 'ruby-mode-hook
-          (lambda ()
-            (add-hook 'local-write-file-hooks
-                      '(lambda()
-                         (save-excursion
-                           (untabify (point-min) (point-max)))))
-            (set (make-local-variable 'indent-tabs-mode) 'nil)
-            (set (make-local-variable 'tab-width) 2)
-            (define-key ruby-mode-map "\C-m" 'ruby-reindent-then-newline-and-indent)
-            (require 'ruby-electric)
-            (ruby-electric-mode t)))
 
 (defadvice ruby-do-run-w/compilation (before kill-buffer (name cmdlist))
   (let ((comp-buffer-name (format "*%s*" name)))
