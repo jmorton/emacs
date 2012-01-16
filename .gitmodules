@@ -7,3 +7,6 @@
 [submodule "vendor/clojure-mode"]
 	path = vendor/clojure-mode
 	url = https://github.com/technomancy/clojure-mode.git
+[submodule "vendor/mustache-mode"]
+	path = vendor/mustache-mode
+	url = https://github.com/mustache/emacs.git
