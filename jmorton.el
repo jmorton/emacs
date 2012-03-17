@@ -16,4 +16,8 @@
 (load "jmorton/scala")
 (load "jmorton/haskell")
 (load "jmorton/c")
-(load "jmorton/school")
+(load "jmorton/org")
+
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
