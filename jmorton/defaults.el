@@ -13,3 +13,14 @@
 (autoload 'whitespace-toggle-options "whitespace" "Toggle with `whitespace-mode' options." t)
 (global-set-key (kbd "C-c w") 'global-whitespace-mode)
 (global-set-key (kbd "C-c W") 'whitespace-cleanup)
+
+;; Backup files are good, but I rarely use them.  Let's put them in the
+;; .emacs.d directory somewhere.
+;; http://stackoverflow.com/questions/2680389/how-to-remove-all-files-ending-with-made-by-emacs
+(setq backup-directory-alist '(("." . "~/.emacs.d/backup"))
+  backup-by-copying t
+  version-control t
+  delete-old-versions t
+  kept-new-versions 20
+  kept-old-versions 5
+  )
