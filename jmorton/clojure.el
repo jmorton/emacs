@@ -1,4 +1,9 @@
 (vendor 'clojure-mode)
+(vendor 'clojure-test-mode)
+
+(vendor 'rainbow-delimiters)
+(add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
+
 (vendor 'paredit)
 (defun turn-on-paredit () (paredit-mode 1))
 (add-hook 'clojure-mode-hook 'turn-on-paredit)
