@@ -13,6 +13,7 @@
 (load "jmorton/yaml")
 (load "jmorton/js")
 (load "jmorton/clojure")
-
+(load "jmorton/scala")
+(load "jmorton/haskell")
 (load "jmorton/c")
 (load "jmorton/school")
