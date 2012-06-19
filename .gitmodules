@@ -16,3 +16,6 @@
 [submodule "vendor/rainbow-delimiters"]
 	path = vendor/rainbow-delimiters
 	url = https://github.com/jlr/rainbow-delimiters
+[submodule "vendor/haskell-mode"]
+	path = vendor/haskell-mode
+	url = https://github.com/pheaver/haskell-mode.git

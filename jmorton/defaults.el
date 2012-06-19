@@ -17,6 +17,7 @@
 (global-set-key (kbd "C-c w") 'global-whitespace-mode)
 (global-set-key (kbd "C-c W") 'whitespace-cleanup)
 
+
 ;; Interactively Do Things
 (setq ido-everywhere t)
 (setq ido-enable-flexible-matching t)
@@ -26,3 +27,15 @@
 (ido-mode 1)
 
 (setq-default truncate-lines t)
+
+;; Backup files are good, but I rarely use them.  Let's put them in the
+;; .emacs.d directory somewhere.
+;; http://stackoverflow.com/questions/2680389/how-to-remove-all-files-ending-with-made-by-emacs
+(setq backup-directory-alist '(("." . "~/.emacs.d/backup"))
+  backup-by-copying t
+  version-control t
+  delete-old-versions t
+  kept-new-versions 20
+  kept-old-versions 5
+  )
+

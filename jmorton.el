@@ -13,8 +13,12 @@
 (load "jmorton/yaml")
 (load "jmorton/js")
 (load "jmorton/clojure")
+(load "jmorton/scala")
+(load "jmorton/haskell")
+(load "jmorton/c")
+(load "jmorton/org")
 
 (require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+
 (package-initialize)
