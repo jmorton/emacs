@@ -1,0 +1,16 @@
+
+M-d deep search from current directory
+M-m make subdirectory in current directory
+C-p prefix matching on/off
+C-c case matching on/off
+C-a all files -- including ignored -- on/off
+
+Fall back!
+C-f
+C-b
+
+You
+M-p, M-n : previous and next work directories
+M-k : remove this directory from list of work directories
+
+

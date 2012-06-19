@@ -10,3 +10,9 @@
 [submodule "vendor/mustache-mode"]
 	path = vendor/mustache-mode
 	url = https://github.com/mustache/emacs.git
+[submodule "vendor/solarized"]
+	path = vendor/solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
+[submodule "vendor/rainbow-delimiters"]
+	path = vendor/rainbow-delimiters
+	url = https://github.com/jlr/rainbow-delimiters
