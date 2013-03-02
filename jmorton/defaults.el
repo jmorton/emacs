@@ -2,7 +2,7 @@
 			cua-enable-cua-keys nil)
 
 ;; Focus. Grasshoppa.
-(ns-toggle-fullscreen)
+; (ns-toggle-fullscreen)
 
 (cua-mode t)
 
@@ -36,6 +36,5 @@
   version-control t
   delete-old-versions t
   kept-new-versions 20
-  kept-old-versions 5
-  )
+  kept-old-versions 5)
 
