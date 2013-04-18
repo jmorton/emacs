@@ -1,8 +1,8 @@
 ; link ~/.emacs to this file
-;  ln -s ~/.emacs ~/Projects/emacs/emacs.el
+;  ln -s ~/Projects/emacs/emacs.el ~/.emacs
 ; link ~/.emacs.d to the directory containing
 ; this file.
-;  ln -s ~/.emacs.d ~/Projects/emacs
+;  ln -s ~/Projects/emacs ~/.emacs.d
 
 (add-to-list 'load-path "~/.emacs.d/")
 (load "jmorton")
