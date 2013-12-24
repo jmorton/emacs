@@ -1,9 +1,4 @@
-(setq inhibit-splash-screen t
-			cua-enable-cua-keys nil)
-
-;; Focus. Grasshoppa.
-; (ns-toggle-fullscreen)
-
+(setq inhibit-splash-screen t cua-enable-cua-keys nil)
 (cua-mode t)
 
 ;; Right... I don't use those anyhow.
