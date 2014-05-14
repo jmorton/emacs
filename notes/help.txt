@@ -1,9 +1,0 @@
-You need to know how to get help!
-
-
-C-h i : get info
-
-When in info mode use these keys (unmodified)
-
-d h
-
